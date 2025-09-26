@@ -426,25 +426,6 @@ Email Request → Template Selection → HTML Generation → SendGrid API → St
 - File access permissions
 - Request logging and monitoring
 
----
-
-## 📈 **Scalability Considerations**
-
-### **Current Limitations:**
-- File-based storage not suitable for high concurrency
-- No caching mechanism
-- Single server deployment
-- No load balancing
-
-### **Scalability Improvements:**
-- Database migration (PostgreSQL/MongoDB)
-- Redis caching layer
-- Queue system for email processing (Celery/RQ)
-- Horizontal scaling with load balancers
-- CDN for static assets
-- Microservices architecture
-
----
 
 ## 🔍 **Monitoring and Logging**
 
@@ -461,17 +442,3 @@ Email Request → Template Selection → HTML Generation → SendGrid API → St
 - SendGrid webhook integration
 
 ---
-
-## 🚀 **Deployment Architecture**
-
-### **Development Environment:**
-```
-Local Machine → Python Virtual Environment → FastAPI Dev Server → Local File Storage
-```
-
-### **Production Recommendations:**
-```
-Load Balancer → Docker Containers → FastAPI + Gunicorn → Database Cluster → Email Service
-```
-
-This system design provides a solid foundation for the email notification system while maintaining simplicity and room for future growth.
