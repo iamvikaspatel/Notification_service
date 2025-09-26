@@ -1,6 +1,9 @@
 # System Design Documentation
 ## Email Notification System for Web Application
 
+<img width="763" height="818" alt="Screenshot 2025-09-25 at 10 21 20 PM" src="https://github.com/user-attachments/assets/0a75d125-2ca1-4510-9159-a0112a968cb4" />
+
+
 ---
 
 ## 📋 **System Overview**
